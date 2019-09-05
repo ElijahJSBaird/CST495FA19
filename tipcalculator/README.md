@@ -25,6 +25,16 @@ The following **additional** features are implemented:
 
 - [ ]Party size option to divide tip between multiple people and give amount per person
 
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/l4jxMKk"  ><a href="//imgur.com/a/l4jxMKk">tipCalculator</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+
 ## License
 
 Copyright [2019] [Elijah Baird]
