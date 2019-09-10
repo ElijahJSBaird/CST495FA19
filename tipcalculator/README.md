@@ -31,7 +31,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/l4jxMKk"  ><a href="//imgur.com/a/l4jxMKk">tipCalculator</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
+<img src="tipCalculator.gif" width="" alt="broken image" />
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 
