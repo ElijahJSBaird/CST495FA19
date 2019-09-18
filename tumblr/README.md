@@ -39,7 +39,6 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 -I had a hard time figuring out how to resize the table cells.
--The imbedded gif starts after the launch screen but the actual gif file includes it
 
 ## License
 
