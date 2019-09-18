@@ -39,8 +39,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 -I had a hard time figuring out how to resize the table cells.
--It took several tries to get my pod file to import and be recognized by xcode
-
+-The imbedded gif starts after the launch screen but the actual gif file includes it
 
 ## License
 
