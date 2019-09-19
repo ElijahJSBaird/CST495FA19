@@ -91,8 +91,6 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 -I had a hard time figuring out how to resize the table cells.
--It took several tries to get my pod file to import and be recognized by xcode
-
 
 ## License
 
