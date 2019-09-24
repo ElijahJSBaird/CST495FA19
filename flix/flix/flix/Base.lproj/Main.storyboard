@@ -115,7 +115,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d1c-TI-Xoo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="125" y="989"/>
+            <point key="canvasLocation" x="819" y="1042"/>
         </scene>
         <!--Superhero-->
         <scene sceneID="ue9-8u-LAu">
@@ -128,7 +128,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="wpd-5K-qJF">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Lv8-4i-daJ">
                                     <size key="itemSize" width="199" height="225"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -151,6 +151,7 @@
                                         </view>
                                         <connections>
                                             <outlet property="posterView" destination="i87-uJ-dJ1" id="Vgo-GW-e55"/>
+                                            <segue destination="wdz-z7-GZB" kind="show" id="DVL-hR-edQ"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -229,4 +230,7 @@
         <image name="now_playing_tabbar_item" width="21" height="21"/>
         <image name="superhero_tabbar_item" width="21" height="23"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Wkk-Qa-XMI"/>
+    </inferredMetricsTieBreakers>
 </document>

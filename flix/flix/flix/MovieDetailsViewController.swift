@@ -23,7 +23,7 @@ class MovieDetailsViewController: UIViewController {
         // Do any additional setup after loading the view.
         titleLabel.text = movie["title"] as? String
         synopsisLabel.text = movie["overview"] as? String
-        
+                
         let baseURL = "https://image.tmdb.org/t/p/w185"
         let posterPath = movie["poster_path"] as! String
         let backdropPath = movie["backdrop_path"] as! String
