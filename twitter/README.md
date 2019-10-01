@@ -25,3 +25,6 @@ Here's a walkthrough of implemented user stories:
 
 <img src='twitter-pt1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+## Notes
+
+For some reason I cannot retrieve tweets very frequently, I think it might be due to being limited and I ran tests a lot. This led to issues recording the gif since I could never sign in twice and it work both times.
