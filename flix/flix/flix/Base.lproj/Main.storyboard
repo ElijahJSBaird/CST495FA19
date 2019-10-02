@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="230" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pCF-tU-fzd">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="230" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="pCF-tU-fzd">
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexBackgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -28,28 +28,25 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="230"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CFV-HY-db9">
-                                                    <rect key="frame" x="8" y="8" width="110" height="214"/>
-                                                    <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="214" id="ULT-cl-PPw"/>
-                                                        <constraint firstAttribute="width" constant="110" id="Xg7-OL-tGb"/>
-                                                    </constraints>
-                                                </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UyG-ac-PSC">
                                                     <rect key="frame" x="126" y="8" width="50" height="29"/>
-                                                    <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBQ-sN-lVD">
                                                     <rect key="frame" x="126" y="45" width="280" height="20.5"/>
-                                                    <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CFV-HY-db9">
+                                                    <rect key="frame" x="8" y="8" width="110" height="164"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="164" id="ULT-cl-PPw"/>
+                                                        <constraint firstAttribute="width" constant="110" id="Xg7-OL-tGb"/>
+                                                    </constraints>
+                                                </imageView>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="cBQ-sN-lVD" firstAttribute="leading" secondItem="UyG-ac-PSC" secondAttribute="leading" id="7MS-U0-pzz"/>
@@ -60,7 +57,7 @@
                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UyG-ac-PSC" secondAttribute="trailing" constant="8" id="ad1-Fz-rYO"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="cBQ-sN-lVD" secondAttribute="bottom" constant="8" id="mv7-P8-dxV"/>
                                                 <constraint firstItem="UyG-ac-PSC" firstAttribute="top" secondItem="CFV-HY-db9" secondAttribute="top" id="qhD-d4-t33"/>
-                                                <constraint firstAttribute="bottom" secondItem="CFV-HY-db9" secondAttribute="bottom" constant="8" id="sFb-CV-kh2"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="CFV-HY-db9" secondAttribute="bottom" constant="58" id="sFb-CV-kh2"/>
                                                 <constraint firstItem="CFV-HY-db9" firstAttribute="leading" secondItem="hQu-Lh-ahJ" secondAttribute="leading" constant="8" id="zgj-U0-5p7"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -74,7 +71,6 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.089371062069093177" blue="0.24747545601947007" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="pCF-tU-fzd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8ia-es-Zo0"/>
                             <constraint firstItem="pCF-tU-fzd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="PfP-dz-cTl"/>
@@ -266,6 +262,6 @@
         <image name="superhero_tabbar_item" width="21" height="23"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Wkk-Qa-XMI"/>
+        <segue reference="DVL-hR-edQ"/>
     </inferredMetricsTieBreakers>
 </document>
