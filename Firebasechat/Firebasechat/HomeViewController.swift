@@ -17,6 +17,8 @@ class HomeViewController: UIViewController {
     let user = Auth.auth().currentUser
     let userID = Auth.auth().currentUser?.uid
     var ref : DatabaseReference!
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let tap = UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing))
@@ -25,6 +27,7 @@ class HomeViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
+    
     @IBAction func readAction(_ sender: Any) {
         ref.child("Users").child(userID!).observeSingleEvent(of: .value, with: { (snapshot) in
             // Get user value
